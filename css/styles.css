@@ -16,7 +16,7 @@ top:21%;
 right:51%;
 }
 .wthree-services-left img {
-width: 100%;
+width: 40%;
 }
 .wthree-services-right {
     position: absolute;
@@ -127,4 +127,9 @@ input[type=submit]:hover {
     width: 100%;
     margin-top: 0;
   }
+}
+
+
+.predmeti{
+    position:relative;
 }

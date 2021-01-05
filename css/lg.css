@@ -26,7 +26,7 @@ input[type=text], input[type=password] {
 
 /* Add a hover effect for buttons */
 .Button3:hover {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 /* Extra style for the cancel button (red) */

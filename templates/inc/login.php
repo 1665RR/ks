@@ -60,8 +60,8 @@ else {
       <td> </td>
       <td><input name="Submit" type="submit" value="Login" class="Button3"></td>
     </tr>
-    </div>
   </table>
 </form>
 </body>
 </html>
+

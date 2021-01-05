@@ -111,11 +111,10 @@
 		</div>
 		<div class="col-md-7 wthree-services-bottom-grids">
 			<div class="wthree-services-left">
-				<img src="math-maths.jpg" alt="">
+                            <img src="school.jpg" alt="" width="400px" position="relative" float="left">
+                                
 			</div>
-			<div class="wthree-services-right">
-				<img src="math-maths.jpg" alt="">
-			</div>
+			
 			<div class="clearfix"> </div>
 		</div>
 		<div class="clearfix"> </div>
