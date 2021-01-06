@@ -11,7 +11,7 @@
         <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
         <p>
           <a href="templates/inc/login.php" class="btn btn-primary my-2">Prijavi se</a>
-          <a href="#" class="btn btn-secondary my-2">Kontaktiraj nas</a>
+          <a href="#kontakt" class="btn btn-secondary my-2">Kontaktiraj nas</a>
         </p>
       </div>
     </div>
@@ -120,7 +120,9 @@
 		<div class="clearfix"> </div>
 	</div>
      </div>
+      <div id="kontakt">
       <?php include 'inc/kontakt.php';?>
+      </div>
 </div>
 </main>
 

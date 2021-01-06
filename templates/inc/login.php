@@ -2,6 +2,7 @@
 /* Check Login form submitted */if(isset($_POST['Submit'])){
 /* Define username and associated password array */$logins = array('Marko12@gmail.com' => '123456','matemaric@gmail.com' => '123456','username2' => 'password2');
 $admins = array('admin1' => '123456','admin2' => '123456','admin3' => 'lozinka');
+$prof = array('martin12@gmail.com' => '123456','markomaric@gmail.com' => '123456','admin3' => 'lozinka');
 
 /* Check and assign submitted Username and Password to new variable */$Username = isset($_POST['Username']) ? $_POST['Username'] : '';
 $Password = isset($_POST['Password']) ? $_POST['Password'] : '';
@@ -14,6 +15,10 @@ exit;
 else if (isset($admins[$Username]) && $admins[$Username] == $Password){
    $_SESSION['UserData']['Username']=$admins[$Username]; 
    header("location:admin.php");
+}
+else if (isset($prof[$Username]) && $prof[$Username] == $Password){
+   $_SESSION['UserData']['Username']=$prof[$Username]; 
+   header("location:prof.php");
 }
 else {
 /*Unsuccessful attempt: Set error message */$msg="<span style='color:red'>Unijeli ste neispravne podatke</span>";

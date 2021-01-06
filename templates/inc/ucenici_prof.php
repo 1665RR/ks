@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Učenici</title>
+<title>Predmeti</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
 <link href="../../css/styles.css" type="text/css" rel="stylesheet">
 <link rel="stylesheet" href="../../css/bootstrap.css" type="text/css">
@@ -39,7 +39,7 @@ $(document).ready(function(){
 </script>
 </head>
 <body>
-<?php include 'admin_nav.php';?>
+<?php include 'prof_nav.php';?>
 <div class="container-xl">
 	<div class="table-responsive">
 		<div class="table-wrapper">
@@ -67,7 +67,7 @@ $(document).ready(function(){
 						<th>Email</th>
 						<th>Adresa</th>
 						<th>Broj telefona</th>
-                                                <th>Uređivanje <br> Brisanje</th>
+                                                <th>Brisanje</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -83,7 +83,7 @@ $(document).ready(function(){
 						<td>89 Chiaroscuro Rd, Portland, USA</td>
 						<td>(171) 555-2222</td>
 						<td>
-							<a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+							
 							<a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
 						</td>
 					</tr>
@@ -99,7 +99,6 @@ $(document).ready(function(){
 						<td>Obere Str. 57, Berlin, Germany</td>
 						<td>(313) 555-5735</td>
 						<td>
-							<a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
 							<a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
 						</td>
 					</tr>
@@ -115,7 +114,6 @@ $(document).ready(function(){
 						<td>25, rue Lauriston, Paris, France</td>
 						<td>(503) 555-9931</td>
 						<td>
-							<a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
 							<a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
 						</td>
 					</tr>
@@ -131,7 +129,6 @@ $(document).ready(function(){
 						<td>C/ Araquil, 67, Madrid, Spain</td>
 						<td>(204) 619-5731</td>
 						<td>
-							<a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
 							<a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
 						</td>
 					</tr>					
@@ -147,7 +144,6 @@ $(document).ready(function(){
 						<td>Via Monte Bianco 34, Turin, Italy</td>
 						<td>(480) 631-2097</td>
 						<td>
-							<a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
 							<a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
 						</td>
 					</tr> 
@@ -199,41 +195,7 @@ $(document).ready(function(){
 		</div>
 	</div>
 </div>
-<!-- Edit Modal HTML -->
-<div id="editEmployeeModal" class="modal fade">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<form>
-				<div class="modal-header">						
-					<h4 class="modal-title">Uredi učenike</h4>
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				</div>
-				<div class="modal-body">					
-					<div class="form-group">
-						<label>Ime i Prezime</label>
-						<input type="text" class="form-control" required>
-					</div>
-					<div class="form-group">
-						<label>Email</label>
-						<input type="email" class="form-control" required>
-					</div>
-					<div class="form-group">
-						<label>Adresa</label>
-						<textarea class="form-control" required></textarea>
-					</div>
-					<div class="form-group">
-						<label>Broj telefona</label>
-						<input type="text" class="form-control" required>
-					</div>					
-				</div>
-				<div class="modal-footer">
-					<input type="button" class="btn btn-default" data-dismiss="modal" value="Odustani">
-					<input type="submit" class="btn btn-info" value="Spremi">
-				</div>
-			</form>
-		</div>
-	</div>
-</div>
+
 <!-- Delete Modal HTML -->
 <div id="deleteEmployeeModal" class="modal fade">
 	<div class="modal-dialog">
@@ -257,3 +219,4 @@ $(document).ready(function(){
 </div>
 </body>
 </html>
+

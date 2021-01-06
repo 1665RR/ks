@@ -4,18 +4,17 @@ header("location:login.php");
 exit;
 }
 ?>
-
 <!DOCTYPE html>
 <html >
 <head>
-<title>Učenik</title>
+<title>Predavač</title>
 <link href="../../css/styles.css" type="text/css" rel="stylesheet">
 <link rel="stylesheet" href="../../css/bootstrap.css" type="text/css">
 <link rel="stylesheet" href="../../css/not.css" type="text/css">
 </head>
 
 <body>
-<?php include 'user_nav.php';?>
+<?php include 'prof_nav.php';?>
  
  <div class="predmeti">
        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
@@ -35,9 +34,19 @@ exit;
         </div>
        </div>
        </div>
-  
+      <div class="body"></div>
+<div class="chat">
+  <div class="profile">
+      <img src='https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=a8ccd69bd6cc884f728949673c6829cf' alt=''>
+  </div>
+  <div class="message">
+     Loren ipsum dolen sit a mor a mor a mor whatever, Loren ipsum dolen sit a mor a mor a mor whatever.
+  </div>
+  <div class="user">
+     John Doe
+  </div>
+</div>
 
 </body>
 </html>
-
 
