@@ -16,11 +16,16 @@
       <div class="position-sticky pt-3">
         <ul class="nav flex-column">
           <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="prof.php">
+              <a class="nav-link active" aria-current="page" href="user.php">
               Dashboard
             </a>
           </li>
-         
+          <li class="nav-item">
+              <a class="nav-link" href="upisani_pr.php">
+              <span ></span>
+              Upisani predmeti
+            </a>
+          </li>
           </div> 
         </nav>
               

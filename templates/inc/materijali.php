@@ -3,6 +3,7 @@
         <link href="../../css/styles.css" type="text/css" rel="stylesheet">
 <link rel="stylesheet" href="../../css/bootstrap.css" type="text/css">
 <link rel="stylesheet" href="../../css/mat.css" type="text/css">
+<script src="../../js/scripts.js"></script>
     </head>
     <body>
         <?php include 'prof_nav.php';?>
